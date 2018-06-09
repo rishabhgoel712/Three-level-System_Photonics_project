@@ -44,7 +44,7 @@ while n<=n1
         i=i+1;
     else  %case when it goes to ground state directly
         t(i)=t(i-1)+1/gsp1; %rise in time
-        intensity(j)=(gsp1^2/(gsp1+gnr1))*((gnr2*A1/gnr1)+((gnr2-S2)/gnr1)*A2*exp(-S2/gsp1) + ((gnr2-S1)/gnr1)*A3*exp(-S1/gsp1));  % function for intensity
+        intensity(j)=(gsp1^2/(gsp1+gnr1))*((gnr2*A1/gnr1) + ((gnr2-S2)/gnr1)*A2*exp(-S2/gsp1) + ((gnr2-S1)/gnr1)*A3*exp(-S1/gsp1));  % function for intensity
         g=fix((1/gsp1)/(1/p));
         t(i)=t(i)+(g+1)*(1/p) - 1/gsp1;
         i=i+1; %increment in time index
