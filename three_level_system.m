@@ -1,3 +1,4 @@
+%manual binning and old values
 clear;
 clc;
 close all;
