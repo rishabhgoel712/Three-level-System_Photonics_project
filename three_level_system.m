@@ -3,7 +3,7 @@ clc;
 close all;
 tic
 n=1; %current iteration
-n1=25000000;%total number of iterations
+n1=2500000;%total number of iterations
 p=10^7; %pumping rate
 LT=10e-9;  %initialised here, follows exponential distribution 
 T=exprnd(LT,1,n1);
@@ -79,8 +79,8 @@ xlabel('time (s)','fontsize',24);
 ylabel('Intensity (a.u.)','fontsize',24);
 set(gca, 'Fontsize',24);
 
-figname_png = ['Intensity and time for 3 level system8.png'];
-figname = ['Intensity and time for 3 level system8'];
+figname_png = ['Intensity and time for 3 level system9.png'];
+figname = ['Intensity and time for 3 level system9'];
 width = 15;
 height = 4;
 set(gcf, 'PaperPositionMode', 'manual');
