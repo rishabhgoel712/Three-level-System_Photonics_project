@@ -1,3 +1,4 @@
+%code with random gsp and choose and efficient binning
 clear;
 clc;
 close all;
